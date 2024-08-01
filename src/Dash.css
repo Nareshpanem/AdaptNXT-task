@@ -1,0 +1,116 @@
+.dashboard{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   background-color: #EFF0F1;
+   text-transform: capitalize;
+   font-family: sans-serif;
+}
+/* ===================================navbar========================== */
+.dashboard .navbar{
+    height: 100%;
+    width: 18%;
+    background-color: white;
+}
+.dashboard .navbar ul{
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    padding-top: 5vh;
+    list-style: none;
+    position: relative;
+}
+.dashboard .navbar li{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.dashboard .navbar li span{
+    margin-left: 15px;
+}
+.dashboard .navbar li h1{
+     position: absolute;
+     right: 20px;
+}
+.dashboard .navbar li a{
+    color:  #A6B1BB;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.dashboard .navbar  #active{
+    background-color: #FAF0FF;
+    color: violet;
+    width: 95%;
+    border-radius: 0 10px 10px 0;
+}
+/* ======================middle=============================== */
+.dashboard .middle{
+    height: 100vh;
+    width: 82%;
+    margin-left: 1%;
+}
+
+.dashboard .middle .line{
+    height: 6vh;
+    width: 100%;
+    background-color: #eff0f1a4;
+}
+.dashboard .middle button{
+    outline: none;
+    background-color: white;
+    width: 15vh;
+    height: 5vh;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    color: violet;
+}
+.dashboard .secondbox{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard .graph{
+    height: 95%;
+    width: 64%;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+}
+.dashboard .pie{
+    height: 95%;
+    width: 35%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius:  15px;
+}
+.dashboard .pie h1, .dashboard .graph h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom:  solid 1px black;
+}
+.dashboard .graph img{
+    height: 60%;
+    display: block;
+
+    margin: 15vh auto;
+}
+.pie-chart-container {
+    width: 350px; /* Adjust width */
+    height: 350px; /* Adjust height */
+    
+  }
+  
